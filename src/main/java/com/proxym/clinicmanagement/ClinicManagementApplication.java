@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 
 @SpringBootApplication
 @Configuration
-@EntityScan(basePackages = {"com.Proxym.clinicmanagement.entities"})  // scan JPA entities
+@EntityScan(basePackages = {"com.proxym.clinicmanagement.entities"})  // scan JPA entities
 
 public class ClinicManagementApplication {
 

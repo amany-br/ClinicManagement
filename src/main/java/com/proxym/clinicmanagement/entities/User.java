@@ -2,16 +2,14 @@ package com.proxym.clinicmanagement.entities;
 
 import lombok.*;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.Date;
-
-@Data
+@Entity
+@Table(name ="utilisateur" )
+@Getter
+@Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@Entity
 public class User {
 
     @Id
