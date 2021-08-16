@@ -28,12 +28,12 @@ public class UserRestApi {
 
     }
     @GetMapping(path="/user/{id}")
-    public User get(@PathVariable Integer id )
+    public User get(@PathVariable Long id )
     {
         return UserService.readById(id);
     }
     @DeleteMapping(path="/remove-user/{id}")
-    public void delete(@PathVariable Integer id) {
+    public void delete(@PathVariable Long id) {
         UserService.delete(id);
 
     }

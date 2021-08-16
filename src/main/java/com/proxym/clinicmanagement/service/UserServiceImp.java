@@ -21,10 +21,10 @@ public class UserServiceImp implements UserService {
     public  User update(User u ){
         return userRepository.save(u);
     }
-    public void delete(Integer id){
+    public void delete(Long id){
         userRepository.deleteById(id);
     }
-    public User readById(Integer id){
+    public User readById(Long id){
         return userRepository.findById(id).get();
     }
 
