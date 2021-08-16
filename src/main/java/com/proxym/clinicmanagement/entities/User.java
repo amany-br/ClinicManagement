@@ -4,12 +4,12 @@ import lombok.*;
 
 import javax.persistence.*;
 import java.util.Date;
-
-@Data
+@Entity
+@Table(name ="utilisateur" )
+@Getter
+@Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@Entity
-@Table(name = "utilisateur")
 public class User {
 
     @Id
