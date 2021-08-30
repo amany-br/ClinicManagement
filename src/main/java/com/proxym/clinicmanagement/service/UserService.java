@@ -1,4 +1,4 @@
-package com.proxym.clinicmanagement.security.services;
+package com.proxym.clinicmanagement.service;
 
 import com.proxym.clinicmanagement.model.User;
 
@@ -14,10 +14,9 @@ public interface UserService {
 
     User update(User u );
 
+    void delete(Long id);
 
-    void delete(Integer id);
-
-    User readById(Integer id);
+    User readById(Long id);
 
 
 }

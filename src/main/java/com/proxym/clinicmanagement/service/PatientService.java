@@ -1,7 +1,6 @@
 package com.proxym.clinicmanagement.service;
 
 import com.proxym.clinicmanagement.entities.Patient;
-import com.proxym.clinicmanagement.entities.User;
 
 import java.util.List;
 

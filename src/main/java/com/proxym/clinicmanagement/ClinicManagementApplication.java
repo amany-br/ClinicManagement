@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.Configuration;
 
 @SpringBootApplication
-@Configuration
-@EntityScan(basePackages = {"com.proxym.clinicmanagement.entities"})  // scan JPA entities
+
+// scan JPA entities
 
 public class ClinicManagementApplication {
 

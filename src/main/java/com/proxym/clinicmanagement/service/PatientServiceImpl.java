@@ -1,9 +1,7 @@
 package com.proxym.clinicmanagement.service;
 
 import com.proxym.clinicmanagement.entities.Patient;
-import com.proxym.clinicmanagement.entities.User;
 import com.proxym.clinicmanagement.repository.PatientRepository;
-import com.proxym.clinicmanagement.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
